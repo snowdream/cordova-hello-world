@@ -4,7 +4,9 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import VueCordova from 'vue-cordova'
+import Cube from 'cube-ui'
 
+Vue.use(Cube)
 Vue.use(VueCordova)
 
 Vue.config.productionTip = false
